@@ -33,4 +33,8 @@ body {
   /* extra styles */
   max-width: 1050px;
   margin: 0 auto;
+
+  @media (max-width: 600px) {
+    flex-direction: column; /* Change to column layout on smaller screens */
+  }
 }

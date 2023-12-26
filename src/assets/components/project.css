@@ -3,10 +3,17 @@
     padding: 15px;
     margin-bottom: 15px;
     transition: opacity 0.3s ease;
+
+    @media (max-width: 600px) {
+      flex-direction: column; /* Change to column layout on smaller screens */
+    }
 }
 
 .project-image {
     min-width: 200px;
+    @media (max-width: 600px) {
+      margin-bottom: 15px;
+    }
 }
 
 .project-image img {

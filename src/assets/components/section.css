@@ -3,6 +3,13 @@
   flex-grow: 1;
   align-items: center;
   /* extra styles */
+  @media (max-width: 600px) {
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
 }
 
 .textContent {

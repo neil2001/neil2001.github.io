@@ -29,7 +29,7 @@ const NavBar = () => {
       <a href="https://www.linkedin.com/in/neil-xu-2401/" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-linkedin fa-lg"></i>
       </a>
-      <a href="mailto:neil_xu@brown.edu">
+      <a href="mailto:neil_xu@brown.edu" id="email">
         <i className="fas fa-envelope fa-lg"></i>
       </a>
     </div>
