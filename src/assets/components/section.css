@@ -1,0 +1,43 @@
+.content {
+  /* important styles */
+  flex-grow: 1;
+  align-items: center;
+  /* extra styles */
+}
+
+.textContent {
+  /* important styles */
+  flex-grow: 1;
+  /* width: 90%; */
+
+  /* extra styles */
+  padding-top: 70px;
+  padding-bottom: 15px;
+  /* padding-left: 80px; */
+  /* padding-right: 160px; */
+
+  /* padding-right: 150px; */
+}
+
+.text {
+  flex: 1; /* Takes up remaining space */
+  padding-right: 30px; /* Add some spacing between text and image */
+}
+
+.subsection {
+  margin-bottom: 85px;
+}
+
+#experience {
+  margin-bottom: 70px;
+}
+
+.textFooter {
+  bottom: 0;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  text-align: center; /* Center text inside the div if needed */
+  padding: 10px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+.sidebar {
+  /* important styles */
+  flex-shrink: 0;
+  width: 50%; /* make this whatever you need */
+  height: 100vh;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+
+  /* text-align: center; */
+  align-items: center;
+
+  /* 
+    you could use `position: absolute` above, but using
+    `sticky` means we don't need to separately move the
+    content section over to prevent the elements from
+    overlapping
+  */
+
+  /* extra styles */
+  /* padding: 16px; */
+  /* padding-top: 100px; */
+  /* border-right: 2px double rgb(185, 185, 185); */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 20px;
+}
+
+.portrait {
+  width: 250px;
+  border-radius: 125px;
+  margin-bottom: 20px;
+}
+
+/* make the nav take up more room :P */
+/* .nav li {
+  text-align: left;
+  line-height: 1.5;
+} */
+
+.logo {
+  height: 15vw;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Style for each list item */
+ul.nav li {
+  
+  margin-bottom: 30px;
+}
+
+/* Style for the anchor tags */
+ul.nav li a {
+  text-decoration: none;
+  color: whitesmoke; /* Default text color */
+  transition: color 0.3s, border-bottom 0.3s; /* Transition for smooth color change and underline on hover */
+
+  /* Style the underline on hover */
+  &:hover {
+    color: #007bff; /* Change text color on hover */
+    border-bottom: 2px solid #007bff; /* Add underline on hover */
+  }
+}
+
+/* Optional: Style for the active link (if needed) */
+ul.nav li a.active {
+  color: #007bff; /* Change text color for the active link */
+  border-bottom: 2px solid #007bff; /* Add underline for the active link */
+}
+
+.name a { 
+  text-decoration: none;
+  color: whitesmoke; /* Default text color */
+  transition: color 0.3s, border-bottom 0.3s; /* Transition for smooth color change and underline on hover */
+
+  /* Style the underline on hover */
+  &:hover {
+    color:aliceblue; /* Change text color on hover */
+  }
+}
+
+.name h1 {
+  font-size: 90px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  /* padding-top: 0px; */
+}
+
+.name h2 {
+  margin-top: 0px;
+}
+
+.footer {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #9a9a9a;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Add a hover effect if you want */
+.footer a:hover {
+  opacity: 0.7;
+}

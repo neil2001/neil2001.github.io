@@ -1,0 +1,70 @@
+.project-item {
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+.project-image {
+    min-width: 200px;
+}
+
+.project-image img {
+    max-height: 100px;
+}
+
+.project-details {
+    flex-grow: 1;
+}
+
+.project-details h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.project-details p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.project-tags {
+    margin-top: 15px;
+}
+
+.project-tags {
+    margin-top: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: rgba(0, 115, 131, 0.4);
+    color: #00A68B;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+
+  .project-item:hover {
+    background-color: rgba(0, 66, 95, 0.4);
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 1;
+    /* Add other hover effects as needed */
+  }
+
+  .hovered {
+    opacity: 0.5;
+  }
+  
+  .project-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }

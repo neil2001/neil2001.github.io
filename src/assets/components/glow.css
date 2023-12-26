@@ -1,0 +1,11 @@
+.glowing-orb {
+    position: fixed;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background: radial-gradient(circle at center, rgba(255,255,255,0.1), rgba(0,0,0,0) 50%);
+    mix-blend-mode: screen;
+    pointer-events: none;
+    transition: transform 0.1s ease-out;
+  }

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+/* your website should have no margin on the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif; /* Use Roboto font here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  color:azure
+}
+
+/* border-box is required for this method */
+* {
+  box-sizing: border-box;
+}
+
+.all {
+  width: 100vw;
+}
+
+/* make an at-least-full-height flex wrapper */
+.wrapper {
+  /* important styles */
+  display: flex;
+  min-height: 100vh;
+
+  /* extra styles */
+  width: 70vw;
+  margin: 0 auto;
+}
