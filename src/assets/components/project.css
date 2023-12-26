@@ -2,7 +2,7 @@
     display: flex;
     padding: 15px;
     margin-bottom: 15px;
-
+    transition: opacity 0.3s ease;
 }
 
 .project-image {
@@ -10,7 +10,9 @@
 }
 
 .project-image img {
-    max-height: 100px;
+    max-height: 150px;
+    border-radius: 10px;
+    width: 170px;
 }
 
 .project-details {
@@ -25,6 +27,7 @@
 .project-details p {
     margin-top: 0px;
     margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .project-tags {
@@ -46,9 +49,12 @@
     font-size: 13px;
   }
 
+  .pointerHover:hover {
+    cursor: pointer;
+  }
+
   .project-item:hover {
     background-color: rgba(0, 66, 95, 0.4);
-    cursor: pointer;
     border-radius: 10px;
     opacity: 1;
     /* Add other hover effects as needed */
@@ -59,12 +65,17 @@
   }
   
   .project-link {
-    display: block;
-    margin-top: 10px;
-    color: #007bff;
     text-decoration: none;
+    color: whitesmoke;
   }
   
   .project-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .project-link:active {
+    text-decoration: none;
+    color: whitesmoke;
+
   }

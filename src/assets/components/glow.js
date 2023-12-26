@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import "./glow.css";
 
-const radius = 400;
+const radius = 500;
 
 const Glow = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });

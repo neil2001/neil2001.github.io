@@ -11,25 +11,25 @@ const NavBar = () => {
       <a href="/">
       <h1>Neil Xu</h1>
       </a>
-      <h2>Software Engineer</h2>
+      <h2>Applied Math + CS @ Brown</h2>
       </div>
     <ul className="nav">
-      <li><a href="#introduction">About</a></li>
+      <li><a href="#about">About</a></li>
       <li>
-        <a href="#history-and-construction">Experience</a>
+        <a href="#experience">Experience</a>
       </li>
       <li>
-        <a href="#second-opium-war">Projects</a>
+        <a href="#projects">Projects</a>
       </li>
     </ul>
     <div className="footer">
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/neil2001" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-github fa-lg"></i>
       </a>
-      <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/neil-xu-2401/" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-linkedin fa-lg"></i>
       </a>
-      <a href="mailto:you@example.com">
+      <a href="mailto:neil_xu@brown.edu">
         <i className="fas fa-envelope fa-lg"></i>
       </a>
     </div>

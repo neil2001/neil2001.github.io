@@ -32,6 +32,23 @@
   margin-bottom: 70px;
 }
 
+.resume-link:hover {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #00C6BF;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: margin 0.3s ease;
+  margin-right: 5px;
+}
+
+.resume-link-wrapper:hover {
+  color: #00C6BF;
+}
+
 .textFooter {
   bottom: 0;
   /* left: 50%; */
