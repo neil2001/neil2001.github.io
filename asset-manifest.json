@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90dd7bc9.css",
+    "main.js": "/static/js/main.34d9d4c7.js",
+    "static/js/787.0f15b36d.chunk.js": "/static/js/787.0f15b36d.chunk.js",
+    "static/media/desktop-world.gif": "/static/media/desktop-world.cd37b8a33eba5b1dc799.gif",
+    "static/media/harmonizer.jpeg": "/static/media/harmonizer.3cb0407112b97a54064d.jpeg",
+    "static/media/groot_colored.jpg": "/static/media/groot_colored.ecb53e223674d2ffdbac.jpg",
+    "static/media/portrait.jpeg": "/static/media/portrait.7f8bb958cc5dda95447d.jpeg",
+    "static/media/tcp-ip.png": "/static/media/tcp-ip.675b78c11f6865e1c7a4.png",
+    "static/media/dashboard.png": "/static/media/dashboard.bf2c3b79abba48a542a2.png",
+    "static/media/point_cloud.png": "/static/media/point_cloud.90296df05236b6238843.png",
+    "static/media/weenix.png": "/static/media/weenix.416f26734b11481282e4.png",
+    "static/media/Nunito-Regular.ttf": "/static/media/Nunito-Regular.9d7a6e03c6e3ed49c7ac.ttf",
+    "static/media/disentangled_color.jpeg": "/static/media/disentangled_color.0ece7fc15f1500fd5469.jpeg",
+    "static/media/saxophone.jpeg": "/static/media/saxophone.e5d031dc8fd52b65ab84.jpeg",
+    "static/media/Neil_Xu_Resume.pdf": "/static/media/Neil_Xu_Resume.f4b031049c50313dab00.pdf",
+    "index.html": "/index.html",
+    "main.90dd7bc9.css.map": "/static/css/main.90dd7bc9.css.map",
+    "main.34d9d4c7.js.map": "/static/js/main.34d9d4c7.js.map",
+    "787.0f15b36d.chunk.js.map": "/static/js/787.0f15b36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90dd7bc9.css",
+    "static/js/main.34d9d4c7.js"
+  ]
+}
