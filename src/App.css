@@ -29,7 +29,6 @@ body {
   /* important styles */
   display: flex;
   min-height: 100vh;
-
   /* extra styles */
   max-width: 1050px;
   margin: 0 auto;
