@@ -4,7 +4,7 @@
     margin-bottom: 15px;
     transition: opacity 0.3s ease;
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px), (max-height: 700px) {
       flex-direction: column; /* Change to column layout on smaller screens */
     }
 }

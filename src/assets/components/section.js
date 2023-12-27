@@ -13,17 +13,20 @@ const Section = () => {
             <div className="textContent">
                 <div id="about" className="subsection">
                     <h1>About Me</h1>
-                    <p>
-                        Hello! I'm a senior at Brown University pursuing a degree in Applied Mathematics-Computer Science. I'm interested in solving complex problems using
-                        algorithms and parallelism, as well as exploring useful applications of machine learning. My goal is to build software that uses data to solve large scale problems.
-                    </p>
-                    <p>
-                        Over the past few years, I've had the opportunity to participate in research and internships spanning a diverse array of tasks. I've built infrastructure software
-                        and tooling for large corporations, done deep learning research in 3D graphics, and developed ML powered web applications for pyschology researchers.
-                    </p>
-                    <p>
-                        When I'm not at the computer, I enjoy Olympic weightlifting, dabbling in jazz saxophone, and playing racket sports.
-                    </p>
+                    <div className="aboutText">
+                        <p>
+                            Hello! I'm a senior at Brown University pursuing a degree in Applied Mathematics-Computer Science. I'm interested in solving complex problems using
+                            algorithms and parallelism, as well as exploring useful applications of machine learning. My goal is to build software that uses data to solve large scale problems.
+                        </p>
+                        <p>
+                            Over the past few years, I've had the opportunity to participate in research and internships spanning a diverse array of tasks. I've built infrastructure software
+                            and tooling for large corporations, done deep learning research in 3D graphics, and developed ML powered web applications for pyschology researchers.
+                        </p>
+                        <p>
+                            When I'm not at the computer, I enjoy Olympic weightlifting, dabbling in jazz saxophone, and playing racket sports.
+                        </p>
+                    </div>
+                    
                 </div>
                 <div id="experience"  className="subsection">
                     <h1>Experience</h1>
@@ -84,7 +87,7 @@ const Section = () => {
                 <div id="projects" className="subsection">
                     <h1>Projects</h1>
                     <Project 
-                        title="Hardware and BVH Acclerated Raytracer for Large STL Files"
+                        title="Hardware and BVH Accelerated Raytracer for Large STL Files"
                         description="Final project for Parallel Computing. Built a Cuda compatible raytracer with a KD-Tree acceleration structure capable of rendering millions of triangles in several seconds."
                         tags={['C++', 'Cuda']}
                         imageSource= {require("../images/groot_colored.jpg")}

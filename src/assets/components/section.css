@@ -3,7 +3,7 @@
   flex-grow: 1;
   align-items: center;
   /* extra styles */
-  @media (max-width: 600px) {
+  @media (max-width: 700px), (max-height: 700px) {
     position: relative;
     width: 100%;
     padding-left: 10px;
@@ -29,6 +29,13 @@
 .text {
   flex: 1; /* Takes up remaining space */
   padding-right: 30px; /* Add some spacing between text and image */
+}
+
+.aboutText {
+  @media (max-width: 700px), (max-height: 700px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .subsection {

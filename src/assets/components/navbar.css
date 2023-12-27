@@ -14,12 +14,14 @@
   /* text-align: center; */
   /* justify-content: center; */
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px), (max-height: 700px) {
     position: relative;
     width: 100%;
     text-align: center;
+    justify-content: center;
     overflow: visible;
     height: auto;
+    /* justify-content: center; */
   }
 
   /* 
@@ -47,13 +49,15 @@
   /* transform: translate(0%, -50%); */
   padding: 20px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px), (max-height: 700px) {
     position:relative;
+    /* width: 100vw; */
+
     /* top: 0px; */
     /* transform: translate(0%, 0%); */
   }
 
-  @media (max-height: 700px) {
+  @media (max-height: 700px), (max-height: 700px) {
     height: 100%;
   }
 }
@@ -132,7 +136,7 @@ ul.nav li a.active {
   margin-top: 20px;
   /* margin-bottom: 20px; */
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px), (max-height: 700px) {
     justify-content: center;
   }
 }
